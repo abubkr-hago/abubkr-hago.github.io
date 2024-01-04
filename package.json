@@ -1,0 +1,39 @@
+{
+  "name": "abubkr-hago",
+  "version": "1.0.0",
+  "homepage": "https://abubkr-hago.github.io",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "transpile": "rimraf build && tsc",
+    "lint": "eslint --cache ./src",
+    "lint-fix": "eslint --cache --fix ./src",
+    "prettier": "prettier --write {src}/{**/*,*}.{js,ts,tsx}"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/inter": "^5.0.16",
+    "@mui/icons-material": "^5.15.3",
+    "@mui/joy": "^5.0.0-beta.21",
+    "@mui/material": "^5.15.3",
+    "@react-three/fiber": "^8.15.13",
+    "next": "^14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "@types/three": "^0.160.0",
+    "@typescript-eslint/eslint-plugin": "^6.17.0",
+    "@typescript-eslint/parser": "^6.17.0",
+    "eslint": "8.22.0",
+    "eslint-config-next": "^14.0.4",
+    "eslint-config-prettier": "^8.8.0",
+    "prettier": "^3.1.1",
+    "typescript": "^5.3.3"
+  }
+}
